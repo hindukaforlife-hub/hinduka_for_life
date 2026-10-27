@@ -1,0 +1,11 @@
+# Hinduka For Life — Cline rules
+
+- Do one task at a time and wait for my approval before the next.
+- Never invent text, phone numbers, emails, statistics, names or social links. Use only text I give you. Unknown details stay as placeholders in square brackets.
+- All text lives in lib/content.js. Components read from it and do not hard-code wording.
+- Mobile-first, fully responsive at 375px, 768px and 1280px, with no horizontal scrolling.
+- Use next/image for every image, with width/height or fill, sizes, rounded corners, and meaningful alt text.
+- Every button and link must go to a real route or action. No dead links except the social links and WhatsApp until I fill in real URLs.
+- Keep the code simple, readable and commented. Do not install packages without telling me why.
+- Tailwind utility classes must be written as full literal strings (never built from string pieces) so Tailwind can detect them.
+- Image file names are image1.png to image8.png and logos are the four icon files in public/logos.
